@@ -1,16 +1,5 @@
 import random
 
-# lowest = 746
-# highest = 868
-# critical_chance = 0.44  # -> 1251
-
-# lowest = 708
-# highest = 784
-# critical_chance = 0.44  # -> 1174
-
-# critical_multiplier = 2.25
-
-
 def calculate_damage(lowest, highest, critical_chance, critical_multiplier):
     avg = (lowest + highest) / 2
     num_of_loops = 100000
